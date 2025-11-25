@@ -14,12 +14,13 @@ public class BreakContinue {
       // Reload action
       int action;
 
+      // Validate before reading
       if (sc.hasNextInt()) {
         action = sc.nextInt();
       } else {
         System.out.println("Please type a number");
-        sc.nextInt();
-        continue;
+        sc.next(); // consume la entrada incorrecta
+        continue;  // vuelve al while sin romper nada
       }
 
       if (action == 1) {
