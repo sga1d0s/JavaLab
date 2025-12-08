@@ -11,7 +11,6 @@ public class Heretic {
     
     public Heretic (String name, int age, Die[] dies, Wine[] bottles, Time goldenWatch)
     {
-
         //Objeto incorrecto
         if (name.equals("") || age < 16 || dies == null || bottles == null || goldenWatch == null)
         {
@@ -45,7 +44,6 @@ public class Heretic {
     public int getLevel() {
         return level;
     }
-
 
     public int getAge() {
         return age;
