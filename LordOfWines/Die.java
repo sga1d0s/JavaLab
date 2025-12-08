@@ -21,7 +21,6 @@ public class Die {
             int[] values = {1, 2, 3, 4, 5, 6}; 
             this.values = values; 
         }
-        
     }
 
     public int roll()

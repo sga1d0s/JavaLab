@@ -51,7 +51,6 @@ public class Time {
         }
 
         return message;
-
     }
 
     public String passBy(int totalMinutes)
@@ -93,7 +92,6 @@ public class Time {
         }
 
         return returnMessage;
-        
     }
 
     public String getTime()

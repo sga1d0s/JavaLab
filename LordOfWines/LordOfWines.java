@@ -55,7 +55,6 @@ public class LordOfWines {
 
     public static void showCharacter(Heretic heretic)
     {
-
         System.out.println("name: " + heretic.getName());
         System.out.println("Age: " + heretic.getAge());
         System.out.println("Level: " + heretic.getLevel());
@@ -66,7 +65,6 @@ public class LordOfWines {
 
     public static void showWine(Wine wine)
     {
-
         System.out.println("name: " + wine.getName());
         System.out.println("Poison time: " + wine.getPoisonTime());
         System.out.println("Points: " + wine.getPoints());

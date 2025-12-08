@@ -9,7 +9,6 @@ public class Heretic {
     private Wine[] bottles; 
     private Time goldenWatch; 
     
-    
     public Heretic (String name, int age, Die[] dies, Wine[] bottles, Time goldenWatch)
     {
 
@@ -35,9 +34,7 @@ public class Heretic {
             //Calculamos level y stamina
             this.level = (age - 16) / 3 + 1;
             this.stamina = 12 * level;
-
         }
-        
     }
 
     public String getName() {
@@ -54,7 +51,6 @@ public class Heretic {
         return age;
     }
 
-
     public int getStamina() {
         return stamina;
     }
@@ -68,8 +64,7 @@ public class Heretic {
             if (i != bottles.length - 1)
             {
                 bottleNames += ", ";
-            } 
-            
+            }   
         } 
 
         return bottleNames;
@@ -116,7 +111,6 @@ public class Heretic {
 
         //Esperamos hasta finalizar los efectos del vino
         waitForTime(randomWine.getEffectTime()); 
-        
     }
 
     private void waitForTime(float hours)
@@ -140,9 +134,5 @@ public class Heretic {
             String message = goldenWatch.passBy(remainingRestMinutes);
             System.out.println(message);
         }
-        
-
     }
-
-    
 }
