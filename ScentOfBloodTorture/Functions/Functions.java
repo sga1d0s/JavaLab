@@ -9,29 +9,31 @@ public class Functions {
     String weapon = charactersWeapons[4];
 
     // 1st EXERCISE
-    // System.out.println(getWeaponAttributes(weapon));
-    // System.out.println();
+    System.out.println(getWeaponAttributes(weapon));
+    System.out.println();
 
     // 2nd EXERCISE
-    // System.out.println("Weapon List");
-    // System.out.println("-----------");
-    // printWeaponData(charactersWeapons);
-    // System.out.println();
+    System.out.println("Weapon List");
+    System.out.println("-----------");
+    printWeaponData(charactersWeapons);
+    System.out.println();
 
     // 3rd EXERCISE
-    // System.out.println(getWeaponPoints(weapon));
-    // System.out.println();
+    System.out.println(getWeaponPoints(weapon));
+    System.out.println();
 
     // 4th EXERCISE
-    // System.out.println("Weapon List with bonus +");
-    // System.out.println("------------------------");
-    // printWeaponsWithPositiveBonus(charactersWeapons);
+    System.out.println("Weapon List with bonus +");
+    System.out.println("------------------------");
+    printWeaponsWithPositiveBonus(charactersWeapons);
+    System.out.println();
 
     // 5th EXERCISE
     System.out.println("Characters with level");
     System.out.println("---------------------");
     String names = getCharactersAboveRandomLevel(charactersNames, characterslevels);
     System.out.println(names);
+    System.out.println();
 
   }
 
